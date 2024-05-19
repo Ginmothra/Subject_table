@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 50%; 
+            text-transform: uppercase;
+        }
+        td{
+            border: 2px solid black;
+            text-align: center;
+            font-family: 'Times New Roman';
+            padding: 3px;
+        }
+        .ist{
+            background-color: tomato;
+        }
+        body{
+            font-family: 'Times New Roman';
+        }
+    </style>
+</head>
+<body>
+    <div display: flex;justify-content: center;>
+    <table style="border: 2px solid black;" align="center">
+        <tr>
+            <td rowspan="3">Hari</td>
+            <td colspan="3">Jadwal Mapel</td>
+        </tr>
+        <tr>
+            <td colspan="2">Jam</td>
+            <td rowspan="2">Mapel</td>
+        </tr>
+        <tr>
+            <td>Mulai</td>
+            <td>Selesai</td>
+        </tr>
+        <!-- Senin -->
+        <tr>
+            <td rowspan="6">Senin</td>
+            <td>7:00 Wib</td>
+            <td>10:00 Wib</td>
+            <td>DDG</td>
+        </tr>
+        <tr>
+            <td>10:00 Wib</td>
+            <td>10:20 Wib</td>
+            <td>PAI</td>
+        </tr>
+        <tr class="ist">
+            <td>10:20 Wib</td>
+            <td>11:00 Wib</td>
+            <td>ISTIRAHAT</td>
+        </tr>
+        <tr>
+            <TD>11:00 Wib</TD>
+            <td>11:45 Wib</td>
+            <td>PAI</td>
+        </tr>
+        <tr class="ist">
+            <td>11:45 Wib</td>
+            <td>13:00 Wib</td>
+            <td>ISTIRAHAT</td>
+        </tr>
+        <tr>
+            <td>13:00 Wib</td>
+            <td>15:30 Wib</td>
+            <td>B.INGGRIS</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="background-color: red;height: 10px;"></td>
+        </tr>
+        <!-- Selasa -->
+        <tr>
+            <td rowspan="5">Selasa</td>
+            <td>7:00 Wib</td>
+            <td>10:20 Wib</td>
+            <td>DDP</td>
+        </tr>
+        <tr class="ist">
+            <td>10:20 Wib</td>
+            <td>11:00 Wib</td>
+            <td>ISTIRAHAT</td>
+        </tr>
+        <tr>
+            <td>11:00 Wib</td>
+            <td>11:45 Wib</td>
+            <td>DDP</td>
+        </tr>
+        <tr class="ist">
+            <td>11:45 Wib</td>
+            <td>13:00 Wib</td>
+            <td>ISTIRAHAT</td>
+        </tr>
+        <tr>
+            <td>13:00 Wib</td>
+            <td>15:30 Wib</td>
+            <td>DDP</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="background-color: red;height: 10px;"></td>
+        </tr>
+       <!-- Rabu -->
+       <tr>
+        <td rowspan="5">Rabu</td>
+        <td>7:00 Wib</td>
+        <td>10:20 Wib</td>
+        <td>TIK</td>
+    </tr>
+    <tr class="ist">
+        <td>10:20 Wib</td>
+        <td>11:00 Wib</td>
+        <td>ISTIRAHAT</td>
+    </tr>
+    <tr>
+        <td>11:00 Wib</td>
+        <td>11:45 Wib</td>
+        <td>penjas</td>
+    </tr>
+    <tr class="ist">
+        <td>11:45 Wib</td>
+        <td>13:00 Wib</td>
+        <td>ISTIRAHAT</td>
+    </tr>
+    <tr>
+        <td>13:00 Wib</td>
+        <td>15:30 Wib</td>
+        <td>Ipas</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: red;height: 10px;"></td>
+    </tr>
+     <!-- Kamis -->
+     <tr>
+        <td rowspan="5">Kamis</td>
+        <td>7:00 Wib</td>
+        <td>10:20 Wib</td>
+        <td>PD</td>
+    </tr>
+    <tr class="ist">
+        <td>10:20 Wib</td>
+        <td>11:00 Wib</td>
+        <td>ISTIRAHAT</td>
+    </tr>
+    <tr>
+        <td>11:00 Wib</td>
+        <td>11:45 Wib</td>
+        <td>PD</td>
+    </tr>
+    <tr class="ist">
+        <td>11:45 Wib</td>
+        <td>13:00 Wib</td>
+        <td>ISTIRAHAT</td>
+    </tr>
+    <tr>
+        <td>13:00 Wib</td>
+        <td>15:30 Wib</td>
+        <td>B.INDO</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: red;height: 10px;"></td>
+    </tr>
+     <!-- Jumat -->
+     <tr>
+        <td rowspan="7">Jumat</td>
+        <td>7:00 Wib</td>
+        <td>9:00 Wib</td>
+        <td>PKN</td>
+    </tr>
+    <tr>
+        <td>9:00 Wib</td>
+        <td>10:20 Wib</td>
+        <td>B.SUNDA</td>
+    </tr>
+    <tr class="ist">
+        <td>10:20 Wib</td>
+        <td>11:00 Wib</td>
+        <td>ISTIRAHAT</td>
+    </tr>
+    <tr>
+        <td>11:00 Wib</td>
+        <td>11:45 Wib</td>
+        <td>Sejarah</td>
+    </tr>
+    <tr class="ist">
+        <td>11:45 Wib</td>
+        <td>13:00 Wib</td>
+        <td>ISTIRAHAT</td>
+    </tr>
+    <tr>
+        <td>13:00 Wib</td>
+        <td>13:45 Wib</td>
+        <td>Sejarah</td>
+    </tr>
+    <tr>
+        <td>13:45 Wib</td>
+        <td>15:05 Wib</td>
+        <td>Seni</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: red;height: 10px;"></td>
+    </tr>
+     <!-- Sabtu -->
+     <tr>
+        <td rowspan="3">Sabtu</td>
+        <td>7:00 Wib</td>
+        <td>8:15 Wib</td>
+        <td>BK</td>
+    </tr>
+    <tr class="ist">
+        <td>8:15 Wib</td>
+        <td>9:00 Wib</td>
+        <td>ISTIRAHAT</td>
+    </tr>
+    <tr>
+        <td>9:00 Wib</td>
+        <td>10:00 Wib</td>
+        <td>P5</td>
+    </tr>
+    </table>
+</body>
+</html>
